@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week 1</title>
+    <style>
+        .image-container {
+            float: left;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="pageHeader">Week 1</h1>
+    <h2>HTML</h2>
+    <h3>This is heading 3</h3>
+    <p class="class1">
+        Week 1 content goes here: Today we learned how to make a paragraph in class,
+        and the teacher is so awesome. I can't wait to learn more about HTML and CSS.
+        This is so awesome, and I really like studying this major.
+        I can generate an italic font <em>like this</em> and a bold font <strong>like this</strong>.
+        I can also format text to look like <code>code</code>.
+        Moreover, I can highlight a section using the "span" tag
+        <span style="background-color:yellow; color:white; padding:2px;">like this</span>. 
+        I can also create a link to another website 
+        <a href="https://www.instagram.com/the.velographer/reel/C9ZFvXGy44Q/" target="_blank">like this</a>.
+    </p>
+    
+    <img class="image-container" src="James William ijaya.png" alt="James William Wijaya" width="200" height="200">
+    <p id="note">This is a picture of a homeless guy in the street!!!</p>
+    
+    <div style="clear: both;"></div> <!-- Clears float to avoid layout issues -->
+
+    <p class="class1"> Here are some ways to not be like this guy. The first one is an unordered list and the second one is an ordered list</p>
+    <ul type="square">
+        <li>Get a job</li>
+        <li>Get a house</li>
+        <li>Get a life</li>
+        <li>Get a girlfriend like sasa</li>
+        <li>Get a sifu</li>
+    </ul>
+
+    <ol type="i">
+        <li>Get a job</li>
+        <li>Get a house</li>
+        <li>Get a life</li>
+        <li>Get a girlfriend like sasa</li>
+        <li>Get a sifu</li>
+    </ol>
+
+    <div id="halfPage">
+        <h1>Sign up to help him!</h1>
+        <form action="https://www.google.com">
+            <label for="groupMembers">Group Members:</label>
+            <input type="number" name="groupMembers" id="groupMembers" placeholder="Enter" min="1" max="4"><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" name="favcolor" value="#ff0000"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>ID number.</th>
+                <th>Patrion1 :</th>
+                <th>Patrion2 :</th>
+                <th>Patrion3 :</th>
+                <th>Patrion4 :</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>James William Wijaya</td>
+                <td>Yap Sasa</td>
+                <td>Chong Jia Wei</td>
+                <td>Chong Jia Siu</td>
+            </tr>
+
+        </table>
+
+        <a href="#pageHeader">Go to Top</a>
+    </div>
+</body>
+</html>
